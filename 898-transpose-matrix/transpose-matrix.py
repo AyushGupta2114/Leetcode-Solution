@@ -12,9 +12,9 @@ class Solution:
        
        
        
-    #    wrong
-        # for i in range(0,len(matrix)):
-        #     for j in range(0,len(matrix[i])-1):
-        #         matrix[i][j],matrix[j][i]=matrix[j][i],matrix[i][j]
-        # return matrix
+    # #    wrong
+    #     for i in range(0,len(matrix)):
+    #         for j in range(0,i):
+    #             matrix[i][j],matrix[j][i]=matrix[j][i],matrix[i][j]
+    #     return matrix
         
