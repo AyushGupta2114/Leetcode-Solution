@@ -3,7 +3,9 @@ class Solution:
         i=len(num)-1
         while i>=0:
             check=int(num[i])
+            print(check)
             if check%2!=0:
+                print(num[:i+1])
                 return(num[:i+1])
                 break
             else:
