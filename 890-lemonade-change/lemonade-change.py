@@ -10,8 +10,8 @@ class Solution:
                 shopper += i
             elif i == 10:
                 num_of_10 += 1
-                shopper += i - 5
-                shopper += 5
+                shopper += i 
+                shopper -= 5
                 if num_of_5 >= 1:
                     num_of_5 -= 1
                     continue
