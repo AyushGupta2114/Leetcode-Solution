@@ -10,39 +10,22 @@ class Solution:
                 shopper += i
             elif i == 10:
                 num_of_10 += 1
-                shopper += i
-                shopper-=5
-                if(num_of_5>=1):
-                    num_of_5-=1
+                shopper += i - 5
+                if num_of_5 >= 1:
+                    num_of_5 -= 1
                     continue
                 else:
                     return False
             else:
-                shopper+=20
-                if(num_of_10>=1 and num_of_5>=1):
-                    num_of_10-=1
-                    num_of_5-=1
-                elif(num_of_5>=3):
-                    num_of_5-=3
+                shopper += 20
+                if num_of_10 >= 1 and num_of_5 >= 1:
+                    num_of_10 -= 1
+                    num_of_5 -= 1
+                elif num_of_5 >= 3:
+                    num_of_5 -= 3
                 else:
                     return False
         return True
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         # shopper=0
         # for i in bills:
