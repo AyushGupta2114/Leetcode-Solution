@@ -7,11 +7,10 @@ class Solution:
         for i in bills:
             if i == 5:
                 num_of_5 += 1
-                shopper += i
+                shopper += 5
             elif i == 10:
                 num_of_10 += 1
-                shopper += i 
-                shopper -= 5
+                shopper += 15
                 if num_of_5 >= 1:
                     num_of_5 -= 1
                     continue
