@@ -11,7 +11,7 @@ public:
             if(s1==s2)
             pivot=i;
             s2=0;
-        };
+        }
         if(pivot==0)
         return -1;
         else
