@@ -7,9 +7,6 @@ public:
             s1+=i;
             for(int j=i;j<=n;j++){
                 s2+=j;
-                if(s2<s1){
-                    continue;
-                }
             }
             if(s1==s2){
             pivot=i;
