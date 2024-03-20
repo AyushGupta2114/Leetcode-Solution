@@ -10,7 +10,6 @@ public:
             }
             if(s1==s2){
             pivot=i;
-            break;
             }
             s2=0;
         }
